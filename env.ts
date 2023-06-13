@@ -12,7 +12,7 @@ export const envRaw: Record<string, string> = {
 	// Useful for determining whether we’re running in production mode.
 	// Most importantly, it switches React into the correct mode.
 	NODE_ENV: process.env.NODE_ENV || 'development',
-	// Whether or not react-refresh is enabled.
+	// Whether or not react-refresh is enabled..lkio
 	// It is defined here so it is available in the webpackHotDevClient.
 	FAST_REFRESH: (process.env.FAST_REFRESH !== 'false').toString(),
 	// Useful for resolving the correct path to static assets in `public`.
